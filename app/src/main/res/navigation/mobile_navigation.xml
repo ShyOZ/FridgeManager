@@ -2,12 +2,46 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_navigation"
-    app:startDestination="@id/home_dest">
+    android:id="@+id/navigation"
+    app:startDestination="@id/blank_dest">
+
+    <action
+        android:id="@+id/action_global_signed_in"
+        app:destination="@id/categories_dest" />
+
+    <action
+        android:id="@+id/action_global_sign_in"
+        app:destination="@id/sign_in_dest" />
 
     <fragment
-        android:id="@+id/home_dest"
-        android:name="com.shyoz.fridgemanager.ui.MainFragment"
-        android:label="Home"
-        tools:layout="@layout/fragment_main" />
+        android:id="@+id/categories_dest"
+        android:name="com.shyoz.fridgemanager.ui.CategoriesFragment"
+        tools:layout="@layout/fragment_categories">
+        <action
+            android:id="@+id/action_to_items"
+            app:destination="@id/items_dest" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/items_dest"
+        android:name="com.shyoz.fridgemanager.ui.ItemsFragment"
+        tools:layout="@layout/fragment_items" />
+
+    <fragment
+        android:id="@+id/sign_in_dest"
+        android:name="com.shyoz.fridgemanager.ui.SignInFragment"
+        tools:layout="@layout/fragment_sign_in" />
+
+    <fragment
+        android:id="@+id/blank_dest"
+        android:name="com.shyoz.fridgemanager.ui.BlankFragment"
+        android:label=""
+        tools:layout="@layout/fragment_blank" />
+
+    <fragment
+        android:id="@+id/settings_dest"
+        android:name="com.shyoz.fridgemanager.ui.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
 </navigation>

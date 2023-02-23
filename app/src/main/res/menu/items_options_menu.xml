@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/option_sort_items_added_descending" />
+    <item android:title="@string/option_sort_items_names_descending" />
+    <item android:title="@string/option_sort_items_names_ascending" />
+    <item android:title="@string/option_sort_items_expiration_ascending" />
+    <item android:title="@string/option_sort_items_expiration_descending" />
+    <item android:title="@string/option_sort_items_added_ascending" />
+</menu>

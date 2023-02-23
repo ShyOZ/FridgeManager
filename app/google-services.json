@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "994684690962",
-    "firebase_url": "https://mobile-applications-23a-default-rtdb.firebaseio.com",
-    "project_id": "mobile-applications-23a",
-    "storage_bucket": "mobile-applications-23a.appspot.com"
+    "project_number": "282430706880",
+    "firebase_url": "https://mobile-applications-sandbox-default-rtdb.firebaseio.com",
+    "project_id": "mobile-applications-sandbox",
+    "storage_bucket": "mobile-applications-sandbox.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:994684690962:android:acfc83193458d5756deecb",
+        "mobilesdk_app_id": "1:282430706880:android:6bb55f8446355a5c964925",
         "android_client_info": {
-          "package_name": "com.shyohevzion.testapp"
+          "package_name": "com.shyoz.fridgemanager"
         }
       },
       "oauth_client": [
         {
-          "client_id": "994684690962-bl10714onbah8o14csnt53gs3faun6cm.apps.googleusercontent.com",
+          "client_id": "282430706880-ep1lee251a416bp0ti2r11g7gv2rsb77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shyoz.fridgemanager",
+            "certificate_hash": "6ddc28d45edd859563d77264f453f2d5702a466a"
+          }
+        },
+        {
+          "client_id": "282430706880-20q6na5me1e4rb5ktdf4eo7ab0aeqmsj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAccLzg035QoaHV5QRHATYlmPqwkotL-nI"
+          "current_key": "AIzaSyBMI7bqGET5k9D4GEy8xpPpK69YHIWbvQ0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "994684690962-bl10714onbah8o14csnt53gs3faun6cm.apps.googleusercontent.com",
+              "client_id": "282430706880-20q6na5me1e4rb5ktdf4eo7ab0aeqmsj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -37,27 +45,35 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:994684690962:android:705663ce6d2cbfc16deecb",
+        "mobilesdk_app_id": "1:282430706880:android:397887b15b50a7d6964925",
         "android_client_info": {
-          "package_name": "com.shyoz.fridgemanager"
+          "package_name": "com.shyoz.sandboxapplication"
         }
       },
       "oauth_client": [
         {
-          "client_id": "994684690962-bl10714onbah8o14csnt53gs3faun6cm.apps.googleusercontent.com",
+          "client_id": "282430706880-t2g1veh3m0sqp31unc4f29j6hk4ibhto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shyoz.sandboxapplication",
+            "certificate_hash": "6ddc28d45edd859563d77264f453f2d5702a466a"
+          }
+        },
+        {
+          "client_id": "282430706880-20q6na5me1e4rb5ktdf4eo7ab0aeqmsj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAccLzg035QoaHV5QRHATYlmPqwkotL-nI"
+          "current_key": "AIzaSyBMI7bqGET5k9D4GEy8xpPpK69YHIWbvQ0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "994684690962-bl10714onbah8o14csnt53gs3faun6cm.apps.googleusercontent.com",
+              "client_id": "282430706880-20q6na5me1e4rb5ktdf4eo7ab0aeqmsj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
